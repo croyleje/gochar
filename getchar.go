@@ -2,6 +2,10 @@
 // While not required under the Unlicense if the code is used please leave reference
 // to the original code repo. https://github.com/paulrademacher/climenu.git getchar.go.
 
+// See /usr/include/X11/keysymdef.h
+// (ISO/IEC 8859-1 = Unicode U+0020..U+00FF)
+// Byte 3 = 0
+
 package utilities
 
 import "github.com/pkg/term"
